@@ -1,0 +1,15 @@
+.navabr {
+    height: 56px;
+}
+.navbar h1 {
+    color: red;
+}
+
+.navbar button {
+    font-weight: bold;
+}
+
+.footer h1 {
+    color: blue;
+}
+
