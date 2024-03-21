@@ -1,8 +1,19 @@
 .catalog {
-    background-color: rgba(205, 228, 241, 0.685);
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog {
+    background-color: #000;
 }
 
 .catalog h1 {
-    color: darkcyan;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
     margin: 0;
 }

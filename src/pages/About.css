@@ -1,0 +1,37 @@
+.about {
+    background-color: #000;
+}
+
+.about h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .box {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 5000px;
+}
+
+.about p {
+    color: #ff7b00;
+}
+
+.about button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about button:hover {
+    background-color: #333;
+}

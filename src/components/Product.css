@@ -1,20 +1,48 @@
 .product{
-    background-color: aliceblue;
-    border: 1px solid grey;
-    margin-bottom: 12px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #333;
+    margin-bottom: 20px;
     vertical-align: top;
     display: inline-block;
     width: 300;
     height: 380;
+    padding: 20px;
+}
+
+.product {
+    background-color: #000;
+    color: #fff;
 }
 
 .product h6 {
-    font-size: 22px;
-    font-family: sans-serif;
+    font-size: 24px;
     margin: 0;
 }
 
 .product img {
     width: 280px;
     height: 280px;
+}
+
+.product label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.product button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #333;
 }
